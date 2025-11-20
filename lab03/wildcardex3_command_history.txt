@@ -1,0 +1,210 @@
+    1  tree
+    2  sudo mysql
+    3  mysql -u root -p
+    4  apt install mysql-client-core-8.0
+    5  mkdir hellp
+    6  tree
+    7  ls
+    8  tree
+    9  snap install tree
+   10  tree
+   11  snap install tree
+   12  tree
+   13  rm -r hellp
+   14  ls
+   15  tree
+   16  mkdir lab03
+   17  cd lab03
+   18  cd ..
+   19  tree
+   20  clear
+   21  rm -r lab03
+   22  ls
+   23  ls snap
+   24  ls tree
+   25  tree
+   26  mkdir lab3
+   27  tree
+   28  cd lab3
+   29  mkdir CopyingFolder
+   30  cd
+   31  mkdir Documents
+   32  mkdir Desktop
+   33  rm -r Documents
+   34  rm -r Desktop
+   35  tree
+   36  cd lab3
+   37  mkdir Documents
+   38  mkdir Desktop
+   39  tree
+   40  touch copied.txt
+   41  tree
+   42  cp -a copied.txt Documents
+   43  tree
+   44  cd Documents
+   45  touch [one,two,three,four,five].txt
+   46  tree
+   47  rm -r [one,two,three,four,five].txt
+   48  tree
+   49  touch {one,two,three,four,five}.txt
+   50  tree
+   51  cd ..
+   52  cp -r Documents CopyingFolder
+   53  tree
+   54  cd CopyingFolder
+   55  rm -r Documents
+   56  tree
+   57  cd
+   58  cd lab3
+   59  cd Documents
+   60  cd ..
+   61  cp -r 'Documents' CopyingFolder
+   62  tree
+   63  cd Documents
+   64  cd ..
+   65  cd CopyingFolder
+   66  rm -r Documents
+   67  cd ..
+   68  cp -a Documents/ CopyingFolder
+   69  tree
+   70  cd CopyingFolder
+   71  rm -r Documents
+   72  cd ..
+   73  cp -a Documents/. CopyingFolder
+   74  tree
+   75  cp -a CopyingFolder Desktop
+   76  tree
+   77  cd Documents
+   78  touch {one,two,three,four,five}_document.txt
+   79  tree
+   80  nano one_document.txt
+   81  cat one_document.txt
+   82  nano two_document.txt
+   83  nano three_document.txt
+   84  nano four_document.txt
+   85  nano five_document.txt
+   86  mv one_document.txt document_un.txt
+   87  tree
+   88  mv two_document.txt document_deux.txt
+   89  mv three_document.txt document_trois.txt
+   90  mv four_document.txt document_quatre.txt
+   91  mv five_document.txt document_cinque.txt
+   92  tree
+   93  cd ..
+   94  mkdir MoveFolder
+   95  mv Documents/. MoveFolder
+   96  tree
+   97  mv Documents/* ../MoveFolder
+   98  mv Documents/* MoveFolder
+   99  tree
+  100  cd Desktop
+  101  mkdir FrenchFolder
+  102  cd ..
+  103  mv MoveFolder/* Desktop/FrenchFolder
+  104  tree
+  105  tree > ~/lab3/tree_structure_before_remove.txt
+  106  cat tree_structure_before_remove.txt
+  107  cd
+  108  rm lab3/Destop/FrenchFolder/document_deux.txt
+  109  rm lab3/Desktop/FrenchFolder/document_deux.txt
+  110  cd lab3
+  111  tree
+  112  cd Documents
+  113  mkdir EmptyFolder
+  114  ls
+  115  touch deletefile.txt
+  116  mkdir DeleteFolder
+  117  tree
+  118  mv deletefile.txt EmptyFolder
+  119  mv DeleteFolder EmptyFolder
+  120  cd DeleteFolder
+  121  cd EmptyFolder
+  122  ls
+  123  rm -r DeleteFolder
+  124  cd ..
+  125  rm -r EmptyFolder
+  126  ls
+  127  cd ../Desktop
+  128  rm -r FrenchFolder/*
+  129  cd FrenchFolder
+  130  ls
+  131  cd ..
+  132  tree
+  133  tree > ~/lab3/tree_structure_after_remove.txt
+  134  cat ~/lab3/tree_structure_after_remove.txt
+  135  cd ..
+  136  cat ~/lab3/tree_structure_after_remove.txt
+  137  tree > ~/lab3/tree_structure_after_remove.txt
+  138  history > ~/lab3/wildcardex1_command_history.txt
+  139  nano ~/lab3/wildcardex1_command_history.txt
+  140  cat ~/lab3/wildcardex1_command_history.txt
+  141  ls
+  142  cd lab3
+  143  ls
+  144  ls Desktop
+  145  cls
+  146  clesr
+  147  clear
+  148  wsl -l -v
+  149  apt install wsl
+  150  wsl -l -v
+  151  ls
+  152  wsl --list --verbose
+  153  sudo 
+  154  sudo -v
+  155  ls
+  156  ssd
+  157  apt install ssd
+  158  clear
+  159  cd lab3
+  160  ls
+  161  tree
+  162  mkdir wildcard_lab
+  163  cd wildcard_lab
+  164  touch {a,b,ab,abc}.txt
+  165  ls
+  166  touch xyz.log
+  167  touch data.csv
+  168  ls
+  169  ls *.txt
+  170  ls *.log
+  171  ls ?.txt
+  172  cd ..
+  173  mkdir backup
+  174  cp wildcard_lab/*.txt ../backup
+  175  cp wildcard_lab/*.txt backup
+  176  cd back up
+  177  cd backup
+  178  ls
+  179  cd ..
+  180  cp wildcard_lab/???.* backup
+  181  cd backup
+  182  ls
+  183  cd ../wildcard_lab
+  184  rm ?.*
+  185  ls
+  186  cd ../backup
+  187  rm *.*
+  188  ls
+  189  cd ../wildcard_lab
+  190  touch file{1,2,3}.txt
+  191  ls
+  192  ls file[1,2,3].txt
+  193  history > ~/lab3/wildcardex2_command_history.txt
+  194  cat wildcardex2_command_history.txt
+  195  cat  ~/lab3/wildcardex2_command_history.txt
+  196  cd ..
+  197  mkdir log
+  198  rm -r log
+  199  ls
+  200  mkdir logs
+  201  ls 
+  202  cd logs
+  203  touch log2023010{1,2,3,4,5}.txt
+  204  ls
+  205  rm *.txt
+  206  ls
+  207  touch log2023010{1,2,3,4,5}.txt
+  208  ls log2023010?.txt
+  209  ls log2023010[13579].txt
+  210  history > ~/lab3/wildcardex3_command_history.txt

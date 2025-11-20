@@ -1,0 +1,136 @@
+    1  pwd
+    2  clear
+    3  /home
+    4  echo 
+    5  /home #
+    6  cd home
+    7  clear
+    8  history
+    9  tree
+   10  mkdir lab2
+   11  cd lab2
+   12  mkdir ex1
+   13  cd ex1
+   14  mkdir network
+   15  cd network
+   16  touch interfaces
+   17  ls
+   18  cd ../../..
+   19  cd lab2
+   20  cd ex1
+   21  rm network
+   22  rm -r network
+   23  tree
+   24  cd ..
+   25  tree
+   26  cd lab2 ex1
+   27  cd lab2
+   28  cd ex1
+   29  rmdir etc
+   30  cd etc
+   31  mkdir etc
+   32  cd etc
+   33  mkdir network
+   34  touch interfaces
+   35  cd ../..
+   36  tree
+   37  cd ex1
+   38  cdetc
+   39  cd etc
+   40  rm -r interfaces
+   41  tree
+   42  cd network
+   43  touch interfaces
+   44  cd ../../../..
+   45  tree
+   46  cd lab2
+   47  cd ex1
+   48  cd etc
+   49  mkdir systemd
+   50  tree
+   51  cd systemd
+   52  touch resolved.conf
+   53  mkdir systemd
+   54  touch systemd.conf
+   55  mkdir user
+   56  touch user.conf
+   57  cd ..
+   58  tree
+   59  mkdir udev
+   60  cd udev
+   61  mkdir rules.d
+   62  touch udev.conf
+   63  cd ..
+   64  tree
+   65  cd ..
+   66  tree
+   67  touch ex1_command_history.txt
+   68  tree
+   69  mkdir home
+   70  cd home
+   71  mkdir lost+found
+   72  mkdir user
+   73  cd user
+   74  mkdir Documents
+   75  cd ..
+   76  tree
+   77  cd ..
+   78  tree
+   79  touch result.txt
+   80  cd ..
+   81  mkdir ex2
+   82  cd ex2
+   83  touch ex2_command_history.txt
+   84  cd ../..
+   85  tree
+   86  clear
+   87  tree
+   88  cd lab2
+   89  cd ex1
+   90  cd etc
+   91  cd systemd
+   92  mv systemd.conf new system.conf
+   93  mv systemd.conf system.conf
+   94  mv systemd system
+   95  cd ../../..
+   96  cd ..
+   97  tree
+   98  history > lab2/ex1/ex1_command_history.txt
+   99  history > lab2/ex2/ex2_command_history.txt
+  100  cd home
+  101  cd
+  102  tree
+  103  cd ~
+  104  tree
+  105  cd ~#
+  106  cd ~
+  107  tree
+  108  cd ~$
+  109  clear
+  110  cd ~
+  111  cd ~home
+  112  cd lab2
+  113  cd ~
+  114  mkdir Destop
+  115  cd Destop
+  116  mkdir TPOS
+  117  cd ..
+  118  mkdir Document
+  119  cd Document
+  120  mkdir TP01
+  121  cd TP01
+  122  touch file.txt
+  123  cd ~
+  124  tree
+  125  cd
+  126  cd /gic-rom-tola/Destop/TPOS
+  127  cd /home/gic-rom-tola/Destop/TPOS
+  128  cd ../../Document
+  129  cd ~/Document
+  130  cd ~
+  131  su gic-sek-thorn
+  132  echo "I am Tola" > Document/TP01/file.txt
+  133  nano Document/TP01/file.txt
+  134  tree
+  135  cat Document/TP01/file.txt
+  136  history >lab2/ex2/ex2_command_history.txt

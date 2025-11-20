@@ -1,0 +1,34 @@
+.
+├── CopyingFolder
+│   ├── copied.txt
+│   ├── five.txt
+│   ├── four.txt
+│   ├── one.txt
+│   ├── three.txt
+│   └── two.txt
+├── Desktop
+│   ├── CopyingFolder
+│   │   ├── copied.txt
+│   │   ├── five.txt
+│   │   ├── four.txt
+│   │   ├── one.txt
+│   │   ├── three.txt
+│   │   └── two.txt
+│   └── FrenchFolder
+│       ├── copied.txt
+│       ├── document_cinque.txt
+│       ├── document_deux.txt
+│       ├── document_quatre.txt
+│       ├── document_trois.txt
+│       ├── document_un.txt
+│       ├── five.txt
+│       ├── four.txt
+│       ├── one.txt
+│       ├── three.txt
+│       └── two.txt
+├── Documents
+├── MoveFolder
+├── copied.txt
+└── tree_structure_before_remove.txt
+
+7 directories, 25 files
