@@ -1,0 +1,6 @@
+drwxrwxr-x  2 gic-rom-tola gic-rom-tola 4096 Nov 27 16:30 lab4
+drwxrwxr-x  3 gic-rom-tola gic-rom-tola 4096 Oct 23 16:22 Destop
+drwxrwxr-x  3 gic-rom-tola gic-rom-tola 4096 Oct 23 16:23 Document
+drwxrwxr-x  4 gic-rom-tola gic-rom-tola 4096 Oct 23 15:58 lab2
+drwxr-xr-x 10 gic-rom-tola gic-rom-tola 4096 Nov 20 15:32 lab03
+total 20

@@ -276,3 +276,19 @@ git push -u origin main
 git branch first_branch
 git checkout first_branch
 git push -u origin first_branch
+tree
+git init
+git remote add origin https://github.com/tolarom/repo_os.git
+git remote set-url origin https://github.com/tolarom/repo_os.git
+git remode -v
+git remote -v
+git add ,
+git add .
+git commit -m "Tp os"
+git push -u origin main
+git config --global user.name "tolarom"
+git config --global user.email "tolarom27@gmail.com"
+git push -u origin main
+git branch -M main
+git push -u origin main\
+git push -u origin main
