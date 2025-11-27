@@ -292,3 +292,28 @@ git push -u origin main
 git branch -M main
 git push -u origin main\
 git push -u origin main
+history
+tree
+mkdir tp4
+rm -r tp4
+mkdir lab4
+ls -l ~ > ~/lab4/contents.txt
+sort contents.txt >> contents-sorted.txt
+cd lab4
+sort contents.txt >> contents-sorted.txt
+tail /etc/passwd > ~/lab4/Documents/newfile.txt
+mkdir Documents
+tail /etc/passwd > ~/lab4/Documents/newfile.txt
+wc -w < contents.txt >> ~/lab4/filled2.txt
+head -n 5 /etc/passwd | sort -r
+tail -n 9 contents.txt | wc - m
+find /user/share -name test
+git add .
+git commit "lab4"
+git push -u origin main
+cd ..
+find /user/share -name test
+git status
+git add .
+git commit -m "lab4"
+git push -u origin main
