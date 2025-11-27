@@ -258,3 +258,21 @@ tree
 clear
 tree
 exit
+git init
+git remote add origin https://github.com/tolarom/repo_os
+git status
+git add .
+git commit -m "OS all lab until lab3"
+git config --global user.email "tolarom27@gmail.com"
+git config --global user.name "tolarom"
+git add .
+git commit -m "OS all lab"
+git push origin
+git push origin main
+git push -u origin main
+git remote set-url origin https://github.com/tolarom/repo_os.git
+git status
+git push -u origin main
+git branch first_branch
+git checkout first_branch
+git push -u origin first_branch
