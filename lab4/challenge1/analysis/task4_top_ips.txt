@@ -1,0 +1,40 @@
+     26 192.168.1.105 [15/Oct/2023:08
+      8 198.51.100.22 [15/Oct/2023:08
+      8 203.0.113.42 [15/Oct/2023:08
+      8 45.33.2.79 [15/Oct/2023:08
+      8 /login
+      8 /
+      1 /wp-login.php
+      1 /wp-includes/
+      1 /wp-content/uploads/
+      1 /wp-config.php
+      1 /wp-admin
+      1 /style.css
+      1 /sitemap.xml
+      1 /script.js
+      1 /robots.txt
+      1 /products/6
+      1 /products/5
+      1 /products/4
+      1 /products/3
+      1 /products/2
+      1 /products/1
+      1 /products
+      1 /privacy.html
+      1 /phpmyadmin
+      1 /images/logo.png
+      1 /.htaccess
+      1 /.git/config
+      1 /favicon.ico
+      1 /?exec=/bin/bash
+      1 /database.sql
+      1 /contact
+      1 /config.php
+      1 /?cmd=whoami
+      1 /checkout/success
+      1 /checkout
+      1 /cart
+      1 /backup.zip
+      1 /admin
+      1 /?action=rm+-rf+
+      1 /about.html

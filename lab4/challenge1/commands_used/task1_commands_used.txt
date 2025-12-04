@@ -1,0 +1,50 @@
+  311  git push -u origin main
+  312  cd ..
+  313  find /user/share -name test
+  314  git status
+  315  git add .
+  316  git commit -m "lab4"
+  317  git push -u origin main
+  318  find /usr/share -name test
+  319  git add .
+  320  git status
+  321  git commit -m "lab4"
+  322  git push -u origin main
+  323  history
+  324  ls
+  325  cd lab4
+  326  ls
+  327  tree
+  328  mkdir challenge1
+  329  cd challenge1
+  330  rm -r challenge1
+  331  cd ..
+  332  rm -r challenge1
+  333  mkdir challenge1
+  334  cd challenge1
+  335  mkdir analysis
+  336  cd analysis
+  337  cd ..
+  338  mkdir original_log
+  339  cd original_log
+  340  touch access.log
+  341  nano access.log
+  342  cd ../analysis
+  343  cd ..
+  344  ls original_log/ | wc -l
+  345  ls
+  346  ls | wc -l >> ~/lab4/challenge1/analysis/task1_basic_status.txt
+  347  cd analysis
+  348  cat task1_basic_status.txt
+  349  rm task1_basic_status.txt
+  350  cd ../original_log
+  351  ls | wc -l >> ~/lab4/challenge1/analysis/task1_basic_status.txt
+  352  nano ~/lab4/challenge1/analysis/task1_basic_status.txt
+  353  wc -l <access.log >>  ~/lab4/challenge1/analysis/task1_basic_status.txt
+  354  head -n 5 access.log >>  ~/lab4/challenge1/analysis/task1_basic_status.txt
+  355  tail -n 5 access.log >>  ~/lab4/challenge1/analysis/task1_basic_status.txt
+  356  cat  ~/lab4/challenge1/analysis/task1_basic_status.txt
+  357  cd ..
+  358  mkdir commands_used
+  359  cd original_log
+  360  history | tail -n 50 >  ~/lab4/challenge1/commands_used/task1_commands_used.txt

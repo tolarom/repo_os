@@ -1,0 +1,50 @@
+  362  grep -E "401|403" access.log >> ~/lab4/challenge1/analysis/task2_basic_stats.txt
+  363  rm ~/lab4/challenge1/analysis/task2_basic_stats.txt
+  364  grep -E "401|403" access.log >> ~/lab4/challenge1/analysis/task2_failed_login.txt
+  365  cat  ~/lab4/challenge1/analysis/task2_failed_login.txt
+  366  rm ~/lab4/challenge1/analysis/task2_failed_login.txt
+  367  grep -E --color=always "401|403" access.log >> ~/lab4/challenge1/analysis/task2_failed_login.txt
+  368  cat  ~/lab4/challenge1/analysis/task2_failed_login.txt
+  369  grep -E --color=always "401|403" access.log | cut -f1 -d" " | sort | uniq -c >> ~/lab4/challenge1/analysis/task2_failed_login.txt
+  370  cat  ~/lab4/challenge1/analysis/task2_failed_login.txt
+  371  history | tail -n 50 >  ~/lab4/challenge1/commands_used/task2_commands_used.txt
+  372  cat  ~/lab4/challenge1/commands_used/task2_commands_used.txt
+  373  grep -iE "bot|scan|exploit|curl|wget" access.log >> ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  374  grep -iE "/wp-admin|/admin|/.git" access.log >> ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  375  grep -iE "\?cmd" access.log >> ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  376  cat ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  377  rm ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  378  grep -iE --color=always "bot|scan|exploit|curl|wget" access.log >> ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  379  grep -iE --color=always "/wp-admin|/admin|/.git" access.log >> ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  380  grep -iE --color=always "\?cmd" access.log >> ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  381  cat ~/lab4/challenge1/analysis/task3_suspicious_agents.txt
+  382  history | tail -n 50 >  ~/lab4/challenge1/commands_used/task3_commands_used.txt
+  383  cut -f1,4 -d" " access.log | cut -f1,2 -d":" | sort | uniq -c  >> ~/lab4/challenge1/analysis/task4_top_ips.txt
+  384  cut -f7 -d" " access.log | sort | uniq -c | sort -r >> ~/lab4/challenge1/analysis/task4_top_ips.txt
+  385  cat  ~/lab4/challenge1/analysis/task4_top_ips.txt
+  386  history | tail -n 50 >  ~/lab4/challenge1/commands_used/task4_commands_used.txt
+  387  cd ..
+  388  tree
+  389  cat task2_failed_login.txt
+  390  cat analysis/task2_failed_login.txt
+  391  cd ..
+  392  mkdir challenge2
+  393  cd challeng2
+  394  cd challenge2
+  395  mkdir data
+  396  cd data
+  397  touch employee.txt | nano employee.txt
+  398  touch employee.txt
+  399  nano employee.txt
+  400  cat employee.txt
+  401  cd ..
+  402  mkdir results
+  403  mkdir commands
+  404  cd data
+  405  grep -iE --color=always "IT" employee.txt >> >> ~/lab4/challenge2/results/task1_IT_staff.txt
+  406  grep -iE --color=always "IT" employee.txt >> ~/lab4/challenge2/results/task1_IT_staff.txt
+  407  cat ~/lab4/challenge2/results/task1_IT_staff.txt
+  408  grep -E --color=always "IT" employee.txt
+  409  rm ~/lab4/challenge2/results/task1_IT_staff.txt
+  410  grep -E --color=always "IT" employee.txt >> ~/lab4/challenge2/results/task1_IT_staff.txt
+  411  history | tail -n 50 >  ~/lab4/challenge2/commands/task1_commands.txt

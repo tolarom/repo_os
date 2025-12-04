@@ -317,3 +317,10 @@ git status
 git add .
 git commit -m "lab4"
 git push -u origin main
+find /usr/share -name test
+git add .
+git status
+git commit -m "lab4"
+git push -u origin main
+history
+ls

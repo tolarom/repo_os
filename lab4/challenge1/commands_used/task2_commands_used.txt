@@ -1,0 +1,50 @@
+  322  git push -u origin main
+  323  history
+  324  ls
+  325  cd lab4
+  326  ls
+  327  tree
+  328  mkdir challenge1
+  329  cd challenge1
+  330  rm -r challenge1
+  331  cd ..
+  332  rm -r challenge1
+  333  mkdir challenge1
+  334  cd challenge1
+  335  mkdir analysis
+  336  cd analysis
+  337  cd ..
+  338  mkdir original_log
+  339  cd original_log
+  340  touch access.log
+  341  nano access.log
+  342  cd ../analysis
+  343  cd ..
+  344  ls original_log/ | wc -l
+  345  ls
+  346  ls | wc -l >> ~/lab4/challenge1/analysis/task1_basic_status.txt
+  347  cd analysis
+  348  cat task1_basic_status.txt
+  349  rm task1_basic_status.txt
+  350  cd ../original_log
+  351  ls | wc -l >> ~/lab4/challenge1/analysis/task1_basic_status.txt
+  352  nano ~/lab4/challenge1/analysis/task1_basic_status.txt
+  353  wc -l <access.log >>  ~/lab4/challenge1/analysis/task1_basic_status.txt
+  354  head -n 5 access.log >>  ~/lab4/challenge1/analysis/task1_basic_status.txt
+  355  tail -n 5 access.log >>  ~/lab4/challenge1/analysis/task1_basic_status.txt
+  356  cat  ~/lab4/challenge1/analysis/task1_basic_status.txt
+  357  cd ..
+  358  mkdir commands_used
+  359  cd original_log
+  360  history | tail -n 50 >  ~/lab4/challenge1/commands_used/task1_commands_used.txt
+  361  cat  ~/lab4/challenge1/commands_used/task1_commands_used.txt
+  362  grep -E "401|403" access.log >> ~/lab4/challenge1/analysis/task2_basic_stats.txt
+  363  rm ~/lab4/challenge1/analysis/task2_basic_stats.txt
+  364  grep -E "401|403" access.log >> ~/lab4/challenge1/analysis/task2_failed_login.txt
+  365  cat  ~/lab4/challenge1/analysis/task2_failed_login.txt
+  366  rm ~/lab4/challenge1/analysis/task2_failed_login.txt
+  367  grep -E --color=always "401|403" access.log >> ~/lab4/challenge1/analysis/task2_failed_login.txt
+  368  cat  ~/lab4/challenge1/analysis/task2_failed_login.txt
+  369  grep -E --color=always "401|403" access.log | cut -f1 -d" " | sort | uniq -c >> ~/lab4/challenge1/analysis/task2_failed_login.txt
+  370  cat  ~/lab4/challenge1/analysis/task2_failed_login.txt
+  371  history | tail -n 50 >  ~/lab4/challenge1/commands_used/task2_commands_used.txt
