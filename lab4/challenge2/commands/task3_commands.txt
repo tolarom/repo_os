@@ -1,0 +1,10 @@
+   34  cut -d',' -f4 employee.txt | cut -d':' -f2 >> ~/repo_os/lab4/challenge2/results/task2_all_emails.txt
+   35  cat ~/repo_os/lab4/challenge2/results/task2_all_emails.txt 
+   36  history | tail -n 20 >  ~/repo_os/lab4/challenge2/commands/task2_commands.txt
+   37  cat  ~/repo_os/lab4/challenge2/commands/task2_commands.txt
+   38  grep 'email:j' employee.txt | cut -d',' -f4 | cut -d':' -f2 >> ~/repo_os/lab4/challenge2/results/task3_j_emails.txt
+   39  cat ~/repo_os/lab4/challenge2/results/task3_j_emails.txt.txt 
+   40  cd ..
+   41  tree
+   42  cat ~/repo_os/lab4/challenge2/results/task3_j_emails.txt 
+   43  history | tail -n 10 >  ~/repo_os/lab4/challenge2/commands/task3_commands.txt
