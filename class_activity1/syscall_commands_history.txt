@@ -1,0 +1,50 @@
+  426  cd class_activity1
+  427  ls
+  428  cat result.txt 
+  429  ./syscall1
+  430  nano syscall1.c
+  431  cd ..
+  432  cat result.txt 
+  433  cd class_activity1
+  434  cat result.txt 
+  435  ls
+  436  clear
+  437  cd ..
+  438  rm -r class_activity1
+  439  ls
+  440  ls class_activity1
+  441  mkdir class_activity1
+  442  cd class_activity1
+  443  ls
+  444  nano syscall1.c
+  445  gcc syscall1.c -o copyfilesyscall
+  446  sudo apt install gcc
+  447  gcc syscall1.c -o copyfilesyscall
+  448  sudo apt update
+  449  sudo apt upgrade
+  450  sudo apt install gcc
+  451  gcc syscall1.c -o copyfilesyscall
+  452  ls
+  453  ./copyfilesyscall
+  454  ls
+  455  tree
+  456  mv copyfilesyscall syscall1
+  457  ls
+  458  ./syscall1 
+  459  nano copyfilesyscall.c
+  460  gcc copyfilesyscall.c -o copyfilesyscall
+  461  ./copyfilesyscall
+  462  ls
+  463  ./copyfilesyscall
+  464  ls
+  465  ./copyfilesyscall 
+  466  nano copyfilesyscall.c
+  467  ls
+  468  touch result.txt
+  469  nano result.txt 
+  470  nano copyresult.txt 
+  471  touch copyresult.txt 
+  472  ./copyfilesyscall 
+  473  cat copyresult.txt 
+  474  tree
+  475  history | tail -n 50 > syscall_commands_history.txt
