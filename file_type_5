@@ -1,0 +1,10 @@
+#!/bin/bash
+item="$1"
+
+if [ -f "$item" ]; then
+  echo "Regular file"
+elif [ -d "$item" ]; then
+  echo "Directory"
+else
+  echo "Other type of file"
+fi
